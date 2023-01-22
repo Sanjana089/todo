@@ -1,0 +1,36 @@
+.add-todo {
+  color: #284b63;
+  display: flex;
+  font-size: 2rem;
+  padding-left: 3rem;
+  padding-right: 2rem;
+}
+
+.input-todo {
+  width: 100%;
+  border: 0;
+  background-color: inherit;
+  font-size: 2rem;
+  outline: 0;
+  color: #284b63;
+}
+
+.input-todo:focus::placeholder {
+  color: transparent;
+}
+.input-todo::placeholder {
+  color: #284b63;
+}
+#add-todo-hr {
+  margin:0 2rem;
+}
+
+.submit-todo {
+  width: 230px;
+  height: min-content;
+  background-color: ivory;
+  border-radius: 0.5rem;
+  border-color: blanchedalmond;
+  color: #284b63;
+  font-size: 1.5rem;
+}
